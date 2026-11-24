@@ -22,6 +22,10 @@ The first tool call asks you to sign in to squirrelscan (OAuth). Audits spend cr
 - "Why is the accessibility score low, and which pages are affected?"
 - "Turn off recurring audits for example.com"
 
+## Skill
+
+`/squirrelscan:audit-website` runs the whole loop: audit the site, read the report, fix the findings in your code, then re-audit and compare. Claude also picks it up on its own when you ask for a site to be checked.
+
 ## Tools
 
 The server exposes audits (`run_audit`, `get_audit_status`, `get_report`, `compare_audits`), issues and findings, website settings and schedules, and rule docs. The full list and every parameter: [docs.squirrelscan.com/developers/mcp](https://docs.squirrelscan.com/developers/mcp).
