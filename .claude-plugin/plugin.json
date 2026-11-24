@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "squirrelscan",
+  "version": "1.0.0",
+  "displayName": "squirrelscan",
+  "description": "Website QA for your coding agent, in the cloud. Audit any site for SEO, performance, security, accessibility and agent experience (350+ rules), read the report, compare audits and fix what it finds, through the hosted squirrelscan MCP server. No install needed.",
+  "author": {
+    "name": "squirrelscan",
+    "url": "https://squirrelscan.com"
+  },
+  "homepage": "https://squirrelscan.com",
+  "repository": "https://github.com/squirrelscan/plugin",
+  "license": "MIT",
+  "keywords": ["seo", "audit", "website", "performance", "security", "accessibility", "mcp"],
+  "documentationUrl": "https://docs.squirrelscan.com/developers/agents/claude-code",
+  "supportUrl": "https://squirrelscan.com/support",
+  "privacyPolicyUrl": "https://squirrelscan.com/privacy",
+  "termsOfServiceUrl": "https://squirrelscan.com/terms"
+}

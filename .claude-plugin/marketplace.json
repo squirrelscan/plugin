@@ -1,0 +1,17 @@
+{
+  "name": "squirrelscan-cloud",
+  "owner": {
+    "name": "squirrelscan",
+    "email": "support@squirrelscan.com"
+  },
+  "description": "squirrelscan cloud plugins: website QA for your coding agent over the hosted MCP server",
+  "plugins": [
+    {
+      "name": "squirrelscan",
+      "source": "./",
+      "description": "Website QA for your coding agent, in the cloud. Audit any site for SEO, performance, security, accessibility and agent experience (350+ rules), read the report, compare audits and fix what it finds, through the hosted squirrelscan MCP server. No install needed.",
+      "category": "productivity",
+      "tags": ["seo", "audit", "website", "performance", "security"]
+    }
+  ]
+}
